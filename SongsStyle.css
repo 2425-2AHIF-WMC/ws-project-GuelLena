@@ -1,0 +1,80 @@
+span{
+    position: relative; /* Ermöglicht die Verschiebung mit 'top' */
+    top: 40px; /* Abstand von 50px nach unten */
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 20px;
+}
+body{
+    background: black;
+}
+.Button {
+    margin-right: 200px;
+    position: relative; /* Ermöglicht die Verschiebung mit 'top' */
+    top: 50px;
+    margin-bottom: 10px;
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #7d808f;
+    color: #000000;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.Button:hover {
+    background-color: #a0a2ae;
+    transform: scale(1.05);
+}
+img{
+    border: 5px solid #fff; /* Weißer Rand */
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.5); /* Glüheffekt */
+    margin-bottom: 10px; /* Abstand unten */
+    width: 40%; /* Bildbreite */
+    position: absolute; /* Wichtig: absolute Positionierung */
+    right: 10px; /* Bild ganz nach rechts verschieben */
+    top: 10px; /* Optional: Bild oben anordnen */
+    margin-top: 10px;
+}
+.img2{
+    border: 5px solid #fff; /* Weißer Rand */
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.5); /* Glüheffekt */
+    margin-bottom: 10px; /* Abstand unten */
+    width: 40%; /* Bildbreite */
+    position: absolute; /* Wichtig: absolute Positionierung */
+    right: 10px; /* Bild ganz nach rechts verschieben */
+    top: 400px; /* Optional: Bild oben anordnen */
+}
+
+.img3{
+    border: 5px solid #fff; /* Weißer Rand */
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.5); /* Glüheffekt */
+    margin-bottom: 10px; /* Abstand unten */
+    width: 40%; /* Bildbreite */
+    position: absolute; /* Wichtig: absolute Positionierung */
+    right: 10px; /* Bild ganz nach rechts verschieben */
+    top: 900px; /* Optional: Bild oben anordnen */
+}
+
+.backButton
+{
+    margin-right: 200px;
+    position: relative; /* Ermöglicht die Verschiebung mit 'top' */
+    top: 220px;
+    margin-bottom: 10px;
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #af4848;
+    color: #000000;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}

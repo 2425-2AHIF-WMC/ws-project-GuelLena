@@ -1,0 +1,57 @@
+body {
+    background: black;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column; /* Elemente vertikal ausrichten */
+    justify-content: flex-start; /* Start der Seite */
+    align-items: center;
+}
+
+img {
+    border: 5px solid #fff; /* Weißer Rand */
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.5); /* Glüheffekt */
+    margin-bottom: 10px; /* Abstand zwischen Bild und Text */
+    width: 20%; /* Anpassbare Bildgröße */
+}
+
+span {
+    color: white;
+    text-align: center; /* Zentriert den Text */
+    margin-bottom: 20px; /* Abstand zum nächsten Bild */
+    margin-top: 20px; /* Abstand zum Bild darüber */
+    width: 80%; /* Optional: Breite des Textes anpassen */
+}
+
+.img2 {
+    border: 5px solid #fff;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.5);
+    margin-top: 20px; /* Abstand vom Text oder vorherigen Element */
+    width: 20%; /* Gleiche Breite wie erstes Bild */
+}
+.img3{
+    border: 5px solid #fff;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.5);
+    margin-top: 20px; /* Abstand vom Text oder vorherigen Element */
+    width: 20%; /* Gleiche Breite wie erstes Bild */
+}
+
+.backButton
+{
+    margin-right: 200px;
+    position: relative; /* Ermöglicht die Verschiebung mit 'top' */
+    top: 220px;
+    left: 110px;
+    margin-bottom: 10px;
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #af4848;
+    color: #000000;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}

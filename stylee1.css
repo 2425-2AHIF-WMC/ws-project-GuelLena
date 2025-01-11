@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column; /* Elemente vertikal anordnen */
+    justify-content: center;
+    align-items: center;
+    background-color: #1a1a1a;
+}
+
+video {
+    border: 5px solid #fff; /* Optional: fügt einen weißen Rand hinzu */
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.5); /* Optional: fügt einen Schein hinzu */
+    transform: translate(0, -50px); /* Optional: passt die Position leicht an */
+}
+
+a.link-button {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #fff;
+    background-color: #000000;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+a.link-button:hover {
+    background-color: rgba(21, 20, 20, 0.88); /* Hintergrundfarbe beim Hover */
+}
